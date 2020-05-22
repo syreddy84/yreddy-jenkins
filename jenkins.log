@@ -1,0 +1,53 @@
+Running from: /usr/share/jenkins/jenkins.war
+webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2020-05-22 18:34:10.844+0000 [id=1]	WARNING	winstone.Logger#logInternal: Parameter handlerCountMax is now deprecated
+2020-05-22 18:34:10.861+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @309ms to org.eclipse.jetty.util.log.JavaUtilLog
+2020-05-22 18:34:10.946+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2020-05-22 18:34:11.883+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2020-05-22 18:34:11.928+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_242-b08
+2020-05-22 18:34:12.151+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2020-05-22 18:34:12.185+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2020-05-22 18:34:12.186+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2020-05-22 18:34:12.188+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2020-05-22 18:34:12.429+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2020-05-22 18:34:12.515+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@64f857e7{Jenkins v2.237,/,file:///var/jenkins_home/war/,AVAILABLE}{/var/jenkins_home/war}
+2020-05-22 18:34:12.531+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@4d15107f{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2020-05-22 18:34:12.531+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @1979ms
+2020-05-22 18:34:12.531+0000 [id=22]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2020-05-22 18:34:13.432+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2020-05-22 18:34:13.451+0000 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2020-05-22 18:34:14.217+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2020-05-22 18:34:14.220+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2020-05-22 18:34:14.225+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2020-05-22 18:34:14.782+0000 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2020-05-22 18:34:14.782+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2020-05-22 18:34:14.783+0000 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2020-05-22 18:34:14.784+0000 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2020-05-22 18:34:14.808+0000 [id=55]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2020-05-22 18:34:14.816+0000 [id=55]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2020-05-22 18:34:15.451+0000 [id=35]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@388a177f: display name [Root WebApplicationContext]; startup date [Fri May 22 18:34:15 UTC 2020]; root of context hierarchy
+2020-05-22 18:34:15.451+0000 [id=35]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@388a177f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7568f4f6
+2020-05-22 18:34:15.465+0000 [id=35]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7568f4f6: defining beans [authenticationManager]; root of factory hierarchy
+2020-05-22 18:34:15.596+0000 [id=35]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4cac0afd: display name [Root WebApplicationContext]; startup date [Fri May 22 18:34:15 UTC 2020]; root of context hierarchy
+2020-05-22 18:34:15.596+0000 [id=35]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4cac0afd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4cab3b28
+2020-05-22 18:34:15.596+0000 [id=35]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4cab3b28: defining beans [filter,legacy]; root of factory hierarchy
+2020-05-22 18:34:15.885+0000 [id=35]	INFO	jenkins.install.SetupWizard#init: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+fc22d85d9f4341aba92874ddd25855f1
+
+This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+2020-05-22 18:35:05.927+0000 [id=55]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2020-05-22 18:35:05.929+0000 [id=55]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2020-05-22 18:35:05.939+0000 [id=55]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 51,130 ms
